@@ -1,0 +1,54 @@
+body{
+    background-image: url(../img/fondo.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    text-align: center;
+}
+
+h1{
+    color: aliceblue;
+    font-family: "Sixtyfour Convergence";   
+}
+
+h2{
+    font-family: "Rowdies";
+}
+
+p{
+    font-family: "Be Vietnam Pro";
+}
+
+section{
+    color: aliceblue;
+    text-align: left;
+}
+
+.lista-icono li {
+    list-style-type: none; /* Quita el marcador de lista predeterminado */
+    background-image: url('../img/listas.png'); /* Coloca la imagen que quieres como icono */
+    background-size: 60px 60px; /* Aumenta el tamaño del icono */
+    background-repeat: no-repeat;
+    background-position:  5px; /* Ajusta la posición del icono */
+    padding-left: 70px; /* Añade más espacio para el texto al lado del icono */
+}
+
+.espacio{
+    height: 10vh;
+    margin: 0;
+    text-align: center;
+}
+
+footer{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    font-size: 18px;
+    
+    color: aliceblue;
+    
+}
+
+
+
+
